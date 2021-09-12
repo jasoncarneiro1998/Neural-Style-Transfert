@@ -1,0 +1,73 @@
+header {
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+
+}
+
+
+body{
+	background: url('https://www.efinancialcareers.fr/binaries/content/gallery/efinancial-careers/articles/2018/11/Big-data-2.jpg') no-repeat;
+	background-size: cover;
+}
+}
+
+h1.headline{
+	text-align: center;
+	text-transform: capitalize;
+	border: 2px black;
+	border-radius: 50px;
+	color: black;
+	font-weight: bold;
+	font-size: 40px;
+	padding-top: 0px;
+	background-color: #ADABAB;
+}
+
+
+
+div.drop{
+	color: white;
+	float: left;
+	left:45%;
+	position: relative;
+	margin-top: 40px;
+	margin-left: -220px;
+}
+
+div.drop_left{
+	list-style-type: none;
+	display: inline-block;
+	position: relative;
+	margin-left: 100px;
+	padding-top: 50px;
+	float: left;
+	left: 0%;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+div.drop_right{
+	list-style-type: none;
+	display: inline-block;
+	position: relative;
+	margin-left: 10px;
+	padding-top: 50px;
+	float: left;
+	left: 0%;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+h3.description{
+	font-family: monospace; 
+}
+
+h3.exemple{
+	font-family: monospace;
+}
+h3.resultat{
+	font-family: monospace;
+}
