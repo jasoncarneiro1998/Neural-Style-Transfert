@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Style Transfert</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+<header>
+	<h1 class="headline">
+		Neural Style Transfert
+	</h1>
+
+	<h3 class="description">
+		Nous allons vous présenter une technique utilisant le Deep Learning pour appliquer à une image d’origine le style d’une autre. Cette technique d’optimisation est connue sous le nom de "Neural Style Transfer".
+	</h3>
+
+	<h3 class="exemple">
+		Vous pouvez tester l'expérience en déposant dans un premier temps une photo d'origine puis le style que vous souhaitez apporter à la photo.
+	</h3>
+	<h3 class="resultat">
+		Notre modèle de Deep Learning vous présentera le résultat obtenu!
+	</h3>
+</header>
+<body>
+
+
+<div class="drop">
+	<div class="drop_right">
+		Déposez l'image d'origine
+		<div class="dropContainer" style="border:3px solid white;height:200px;">
+		</div>
+  		<input type="file" id="fileInput" />
+  	</div>
+
+  	<div class="drop_left">
+  		Déposez le style
+		<div class="dropContainer_1" style="border:3px solid white;height:200px;">
+		</div>
+  		<input type="file" id="fileInput" />
+  	</div>
+</div>
+</body>
+
+</html>
